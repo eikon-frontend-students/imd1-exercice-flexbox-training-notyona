@@ -1,4 +1,26 @@
-/* 🦊 Complétez ici les styles pour reproduire le layout montré en image dans la page. */
-/* Il n'y pas de solution unique, utilisez les propriétés Flexbox que vous jugez appropriées. */
-/* N'oubliez pas de tester le rendu en responsive ! */
-/* Aucun changement n'est à faire dans le HTML. */
+.row--top {
+  display: flex;
+  flex-direction: row;
+}
+
+.item--logo {
+  margin-right: auto;
+  align-self: center;
+}
+.nav-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap-reverse;
+  justify-content: end;
+}
+
+.row--bottom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.item--content {
+  flex-grow: 1;
+  min-width: 100px;
+}

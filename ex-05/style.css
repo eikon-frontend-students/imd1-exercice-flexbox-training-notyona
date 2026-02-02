@@ -1,9 +1,12 @@
 .arena {
+  display: flex;
+  justify-content: space-around;
   /* 🦊 Active flexbox sur l'arena. */
   /* Ajoute un espace régulier entre les items. */
 }
 
 .item--grow {
+  flex-grow: 3;
   /* 🦊 Fais grandir cet item pour qu'il prenne l'espace restant. */
 }
 
