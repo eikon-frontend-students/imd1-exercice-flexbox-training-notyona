@@ -1,21 +1,27 @@
 .arena {
+  display: flex;
+  justify-content: space-around;
   /* 🦊 Active flexbox sur l'arena. */
   /* Ajoute un espace régulier entre les items. */
 }
 
 .item--one {
+  order: 3;
   /* 🦊 Donne un ordre pour placer 1 en troisième position. */
 }
 
 .item--two {
+  order: 1;
   /* 🦊 Donne un ordre pour placer 2 en première position. */
 }
 
 .item--three {
+  order: 2;
   /* 🦊 Donne un ordre pour placer 3 en deuxième position. */
 }
 
 .item--four {
+  order: 4;
   /* 🦊 Donne un ordre pour placer 4 en dernière position. */
 }
 
